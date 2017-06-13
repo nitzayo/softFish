@@ -1,8 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.IO;
-using System.IO.Ports;
+
 
 public class FishController : MonoBehaviour {
 
@@ -12,8 +11,6 @@ public class FishController : MonoBehaviour {
 
     public Transform camera;
 
-
-    SerialPort sfd;
     // Use this for initialization
     void Start () {
         rigid = GetComponent<Rigidbody2D>();
